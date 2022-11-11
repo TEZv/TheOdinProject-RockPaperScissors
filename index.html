@@ -36,4 +36,27 @@
                     break;
             }
         };
-        
+         // [x] Get user input - Convert to correct form
+
+            function getPlayerInput() {
+                let playerInput = window.prompt("Rock, Paper, or Scissors?");
+
+                playerChoice = caseInsensitive(playerInput);
+
+                return playerChoice;
+
+            }
+
+
+
+            // Make input case - insensitive
+
+            function caseInsensitive(playerInput) {
+                playerFirstLetter = playerInput.charAt(0).toUpperCase();
+                playerRemainingWord = playerInput.substr(1).toLowerCase();
+                playerInput = playerFirstLetter.concat("", playerRemainingWord);
+                return playerInput;
+            }
+
+            
+

@@ -52,3 +52,19 @@
                 playerInput = playerFirstLetter.concat("", playerRemainingWord);
                 return playerInput;
             }
+             // Play Round
+
+             function playRound(playerSelection, computerSelection){
+
+// Get Computer Choice & Convert computerPlay() -> to variable "computerSelection"
+
+computerSelection = computerPlay();
+
+// Get User Choice & Convert getPlayerInput() -> to variable "playerSelection"
+
+playerSelection = getPlayerInput();
+
+// Computer & Player choices made
+
+console.log("Computer Choice: " + computerSelection);
+console.log("Player Choice: " + playerSelection);

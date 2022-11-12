@@ -189,8 +189,9 @@ h3 {
     display: flex;
     color: orange;
     justify-content: space-evenly;
-    margin: 15%;
+    margin-left: 20px;
     font-size: 15px;
+    padding: 10px;
 }
 #roundInput {
     display: flex;

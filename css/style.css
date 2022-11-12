@@ -39,7 +39,6 @@ a {
 ******************************************************/
 
 #header {
-  color: var(--light-yellow-color);
   margin: 10px;
   font-size: 50px;
 }
@@ -68,7 +67,16 @@ a {
   padding: 5px;
   justify-content: space-evenly;
 }
-
+.button:hover {
+    box-shadow: 0px 0px 18px var(--white-grey-color);
+}
+h3:hover:after {
+    content: "";
+    display: block;
+    width: auto;
+    height: 5px;
+    background-color: var(--white-grey-color);
+}
 .button-image {
   display: block;
   width: 50%;
@@ -87,6 +95,8 @@ h3 {
 h1 {
     text-align: center;
     color: var(--dark-blue-color);
+    font-size: 50px;
+    margin-bottom: -30px;
 }
 
 #results {

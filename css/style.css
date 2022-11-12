@@ -10,7 +10,7 @@
   --pink-color: #ff0055;
   --light-yellow-color: #eeff00;
   --dark-blue-color: #3280fd;
-  --soft-blue-color: #8cb7fc;
+  --soft-blue-color: #85a9e2;
 }
 body {
   margin: 20px;
@@ -18,7 +18,7 @@ body {
   background-color: var(--soft-blue-color);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1.5;
-  background: transparent;
+  
 }
 
 ul {

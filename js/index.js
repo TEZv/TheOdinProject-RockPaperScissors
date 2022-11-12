@@ -85,4 +85,30 @@
                         return "Scissors";
                         break;
                 }
-            };
+};
+             // Make input case - insensitive
+            /*
+            function caseInsensitive(playerInput){
+                playerFirstLetter = playerInput.charAt(0).toUpperCase();
+                playerRemainingWord = playerInput.substr(1).toLowerCase();
+                playerInput = playerFirstLetter.concat("", playerRemainingWord);
+                return playerInput;
+            }
+            */
+            
+            // Play Round
+
+            function playRound(playerSelection, computerSelection, numberOfRounds){
+
+                // Get Computer Choice & Convert computerPlay() -> to variable "computerSelection"
+
+                // Get User Choice & Convert getPlayerInput() -> to variable "playerSelection"
+
+                // playerSelection = document.getElementById.value;
+
+                // playerSelection = getPlayerInput(playerClick);
+
+                // Computer & Player choices made
+
+                console.log("Computer Choice: " + computerSelection);
+                console.log("Player Choice: " + playerSelection);

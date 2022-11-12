@@ -4,12 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a href="http://"></a>
+    <link rel="stylesheet" href="./css/style.css">
     <title><title>Play /RockPaperScissors/</title></title>
 </head>
 <body>
-    
+    <div id="inputField">
+        <h3 class="roundSelect">Number of Wins</h3>
+        <select id="roundInput" class="roundSelect">
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5 selected>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+            <option value=10>10</option>
+        </select>
+    </div>
 
+    <p id="header">
+        <h1>Rock, Paper, Scissors</h1>
+    </p>
+    <ul id="choices">
+        <li id="rock" class="button" value="Rock"><img src="images/rock.png" class="buttonimage">
+            <h3>Rock</h3>
+        </li>
+        <li id="paper" class="button" value="Paper"><img src="images/paper.png" class="buttonimage">
+            <h3>Paper</h3>
+        </li>
+        <li id="scissors" class="button" value="Scissors"><img src="images/scissors.png" class="buttonimage">
+            <h3>Scissors</h3>
+        </li>
+    </ul>
+    
+    <p id="results"></p>
+    <p id="finalResults"></p>
+    
+    <!--Scripts-->
     <script src="./js/index.js"></script>
 </body>
 </html>

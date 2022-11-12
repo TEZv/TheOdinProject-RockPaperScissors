@@ -20,7 +20,9 @@ body {
   line-height: 1.5;
   
 }
-
+li {
+    cursor: pointer;
+}
 ul {
   list-style: none;
 }
@@ -89,6 +91,7 @@ h1 {
   text-align: center;
   text-align-last: center;
   line-height: 1;
+  text-align-last: center;
 }
 
 /*#inputField {
@@ -108,7 +111,7 @@ h1 {
   display: flex;
 }
 option {
-  color: azure;
+  color: var(--white-grey-color);
   text-align: start;
 }
 .roundSelect-h2 {
@@ -125,7 +128,6 @@ option {
   color: var(--violet-color);
   justify-content: space-evenly;
   width: 50px;
-  
   font-size: 25px;
   background-color: var(--grey-color);
   border-radius: 20px;
@@ -134,13 +136,24 @@ option {
   text-align-last: center;
 }
 
-
+#finalResults {
+    display: flex;
+    color: var(--violet-color);
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    text-align-last: center;
+    line-height: 1;
+}
 footer {
   padding: 40px;
   background-color: var(--violet-color);
   text-align: center;
   padding-bottom: 10px;
-  margin-top: 290px;
+  margin-top: 800px;
+  margin-left: 692px;
+  max-width: 500px;
+  position: absolute;
 }
 
 .footer-text {

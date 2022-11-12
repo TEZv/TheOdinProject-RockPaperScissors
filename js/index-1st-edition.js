@@ -92,4 +92,7 @@
                         }
 
                 }
+                console.log("Computer selection: " + computerSelection + " Player selection: " + playerSelection);
+
+            };
 

@@ -318,7 +318,7 @@ function playRound(playerSelection, computerSelection, numberOfRounds) {
       playerScore;
     console.log("you won");
 
-    let finalOutput = document.querySelector("#finalResults");
+    var finalOutput = document.querySelector("#finalResults");
 
     finalOutput.innerHTML = finalRoundsMessage;
   }

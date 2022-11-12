@@ -138,3 +138,25 @@ body {
     flex-direction: row;
 }
 
+.button {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border: 3px solid orange;
+    height: 200x;
+    width: 200px;
+    margin: 10px;
+    align-items: stretch;
+    border-radius: 25%;
+    padding: 5px;
+    justify-content: space-evenly
+}
+
+.buttonimage {
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto
+}

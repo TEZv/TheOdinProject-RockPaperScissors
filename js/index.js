@@ -42,4 +42,47 @@
 
                     return numberOfRounds;
 
+            });
+                // Make buttons clickable - on click, play round
+           
+            let buttons = document.querySelectorAll('.button');
+
+            buttons.forEach((button) => {
+                button.addEventListener("click", (e) => {
+
+                    playRound(button.getAttribute('value'), computerPlay(), numberOfRounds);
+
+                })
                 });
+           
+            //testReturnValues(compScore, playerScore, playerSelection, computerSelection);
+
+            //getPlayerSelection();
+
+
+            /*function testReturnValues(compScore, playerScore, playerSelection, computerSelection){
+                console.log("playerSelection: " + playerSelection);
+                console.log("computerSelection: " + computerSelection);
+                console.log("compScore: " + compScore);
+                console.log("playerScore: " + playerScore);
+            };
+            */
+
+       
+            // [x] Computer choice - computerPlay() function - randomly return either 'Rock', 'Paper' or 'Scissors'.
+
+            function computerPlay(){
+                numberSelection = Math.floor(Math.random() * 3);
+
+                switch(numberSelection){
+                    case 0:
+                        return "Rock";
+                        break;
+                    case 1:
+                        return "Paper";
+                        break;
+                    case 2:
+                        return "Scissors";
+                        break;
+                }
+            };

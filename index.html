@@ -9,8 +9,24 @@
     <title>Play /*RockPaperScissors*/</title>
 </head>
 <body>
-    <div id="inputField">
-        <h2 class="roundSelect-h2">Number of Wins</h2>
+    <section>
+        <div id="inputField">
+            <h2 class="roundSelect-h2">Number of Wins</h2>
+        </div>
+        
+        <p id="header">
+            <h1>Rock, Paper, Scissors</h1>
+        </p>
+    <ul id="choices">
+        <li id="rock" class="button" value="Rock"><img src="images/rock.png" class="button-image">
+            <h3>Rock</h3>
+        </li>
+        <li id="paper" class="button" value="Paper"><img src="images/paper.png" class="button-image">
+            <h3>Paper</h3>
+        </li>
+        <li id="scissors" class="button" value="Scissors"><img src="images/scissors.png" class="button-image">
+            <h3>Scissors</h3>
+        </li>
         <select id="roundInput" class="roundSelect">
             <option value=1>1</option>
             <option value=2>2</option>
@@ -23,25 +39,11 @@
             <option value=9>9</option>
             <option value=10>10</option>
         </select>
-    </div>
-
-    <p id="header">
-        <h1>Rock, Paper, Scissors</h1>
-    </p>
-    <ul id="choices">
-        <li id="rock" class="button" value="Rock"><img src="images/rock.png" class="button-image">
-            <h3>Rock</h3>
-        </li>
-        <li id="paper" class="button" value="Paper"><img src="images/paper.png" class="button-image">
-            <h3>Paper</h3>
-        </li>
-        <li id="scissors" class="button" value="Scissors"><img src="images/scissors.png" class="button-image">
-            <h3>Scissors</h3>
-        </li>
     </ul>
-    
     <p id="results"></p>
     <p id="finalResults"></p>
+</section>
+    
     
     <!--Scripts-->
     <script src="./js/index.js"></script>

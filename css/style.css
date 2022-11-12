@@ -2,9 +2,6 @@ html,
 body,
 div,
 span,
-applet,
-object,
-iframe,
 h1,
 h2,
 h3,
@@ -70,7 +67,7 @@ td {
 }
 
 body {
-    line-height: 1
+    line-height: 1.5;
 }
 
 ol,
@@ -164,7 +161,6 @@ body {
 h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: orange;
-    align-items: stretch;
     margin-left: auto;
     margin-right: auto
 }
@@ -179,26 +175,41 @@ h3 {
     text-align-last: center;
 }
 
-#inputField {
+/*#inputField {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-}
+    align-items: center;
+    gap: 235px;
+    max-width: 1700px;
+}*/
 
 .roundSelect {
-    display: flex;
     color: orange;
     justify-content: space-evenly;
-    margin-left: 20px;
+    align-self: flex-end;
     font-size: 15px;
-    padding: 10px;
+    padding: 25px 10px;
+    display: flex;
+
+}
+option {
+    color:azure;
+    text-align: start;
+}
+.roundSelect-h2 {
+    color: orange;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 270px;
+    font-size: 25px;
+    padding-top: 100px;
 }
 #roundInput {
     display: flex;
     color: orange;
     justify-content: space-evenly;
-    width: 150px;
-    margin: 5%;
+    width: 80px;
+    margin-right: 55px;
     font-size: 15px;
     background-color: black;
     border-radius: 20px;
@@ -208,11 +219,9 @@ h3 {
 }
 
 #finalResults {
-    display: flex;
     color: orange;
-    justify-content: center;
-    margin: 5%;
     font-size: 20px;
     text-align: center;
     text-align-last: center;
+    padding-left: 50px;
 }
